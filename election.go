@@ -84,7 +84,7 @@ func NewElection(c *ElectionConfig) *Election {
 		success:          make(chan struct{}),
 		Event:            c.Event,
   }
-  e.SetLogLevel(c.LogLevel)}
+  e.SetLogLevel(c.LogLevel)
 	return e
 }
 
